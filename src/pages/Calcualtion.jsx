@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Calcualtion = () => {
   const [input, setInput] = useState("");
@@ -24,7 +24,7 @@ const Calcualtion = () => {
   };
 
   return (
-    <div className="min-h-screen bg-indigo-800 flex flex-col items-center justify-center">
+    <div className="min-h-screen bg-indigo-800 flex flex-col items-center justify-center p-4">
       <h1 className="text-white text-4xl mb-6">Calcualtion</h1>
       <input
         type="text"
@@ -32,7 +32,7 @@ const Calcualtion = () => {
         value={input}
         readOnly
       />
-      <div className="grid grid-cols-4 gap-4 w-full max-w-lg">
+      <div className="grid grid-cols-4 gap-4 w-full max-w-lg ">
         {[
           "7",
           "8",
